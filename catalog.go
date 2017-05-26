@@ -1,5 +1,7 @@
 package brokerapi
 
+import "encoding/json"
+
 type Service struct {
 	ID              string                  `json:"id"`
 	Name            string                  `json:"name"`
@@ -32,6 +34,7 @@ type ServicePlanMetadata struct {
 	DisplayName string            `json:"displayName,omitempty"`
 	Bullets     []string          `json:"bullets,omitempty"`
 	Costs       []ServicePlanCost `json:"costs,omitempty"`
+	Raw         json.RawMessage
 }
 
 type ServicePlanCost struct {
