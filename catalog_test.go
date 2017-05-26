@@ -3,9 +3,9 @@ package brokerapi_test
 import (
 	"encoding/json"
 
+	brokerapi "github.com/alphagov/paas-brokerapi"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	"github.com/pivotal-cf/brokerapi"
 )
 
 var _ = Describe("Catalog", func() {

@@ -1,7 +1,7 @@
 package brokerapi_test
 
 import (
-	"github.com/pivotal-cf/brokerapi"
+	brokerapi "github.com/alphagov/paas-brokerapi"
 
 	"errors"
 

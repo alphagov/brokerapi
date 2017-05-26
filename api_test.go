@@ -13,11 +13,11 @@ import (
 
 	"code.cloudfoundry.org/lager"
 	"code.cloudfoundry.org/lager/lagertest"
+	brokerapi "github.com/alphagov/paas-brokerapi"
+	"github.com/alphagov/paas-brokerapi/fakes"
 	"github.com/drewolson/testflight"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	"github.com/pivotal-cf/brokerapi"
-	"github.com/pivotal-cf/brokerapi/fakes"
 )
 
 var _ = Describe("Service Broker API", func() {

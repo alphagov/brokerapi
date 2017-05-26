@@ -3,7 +3,7 @@ package fakes
 import (
 	"context"
 
-	"github.com/pivotal-cf/brokerapi"
+	brokerapi "github.com/alphagov/paas-brokerapi"
 )
 
 type FakeServiceBroker struct {

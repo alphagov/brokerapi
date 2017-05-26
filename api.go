@@ -6,8 +6,8 @@ import (
 	"strconv"
 
 	"code.cloudfoundry.org/lager"
+	"github.com/alphagov/paas-brokerapi/auth"
 	"github.com/gorilla/mux"
-	"github.com/pivotal-cf/brokerapi/auth"
 )
 
 const (
